@@ -42,44 +42,6 @@ To run this project locally, follow these steps:
 
 ### Usage
 You can use tools like Postman to interact with the API.
-### API Endpoints
-
-- **Add School**
-  - **Endpoint:** `/addSchool`
-  - **Method:** `POST`
-  - **Request Body:**
-    ```json
-    {
-      "name": "School Name",
-      "address": "School Address",
-      "latitude": 12.3456,
-      "longitude": 78.9012
-    }
-    ```
-  - **Response:**
-    - `201 Created` on success
-    - `400 Bad Request` on validation errors
-
-- **List Schools**
-  - **Endpoint:** `/listSchools`
-  - **Method:** `GET`
-  - **Parameters:**
-    - `latitude`: User's latitude (query parameter)
-    - `longitude`: User's longitude (query parameter)
-  - **Response:**
-    ```json
-    [
-      {
-        "id": 1,
-        "name": "School A",
-        "address": "Address A",
-        "distance": 2.34
-      },
-      ...
-    ]
-    ```
-    - `200 OK` on success
-    - `500 Internal Server Error` if something goes wrong
 
 ### Hosting
 The API is hosted on Heroku. You can access it via the following URL:
