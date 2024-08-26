@@ -23,6 +23,7 @@ To run this project locally, follow these steps:
 2. Install dependencies:
    npm install
 3. Set up the MySQL database with the following table structure:
+   ```
    CREATE TABLE schools (
     	id INT AUTO_INCREMENT PRIMARY KEY,
    	name VARCHAR(255) NOT NULL,
@@ -31,13 +32,14 @@ To run this project locally, follow these steps:
     	longitude FLOAT NOT NULL
    );
 4. Set up environment variables in a .env file:
+   ```bash
    DB_HOST=your_database_host
    DB_USER=your_database_user
    DB_PASSWORD=your_database_password
    DB_NAME=your_database_name
 5. Start the server:
    npm start
-```
+
 ### Usage
 You can use tools like Postman to interact with the API.
 

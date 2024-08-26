@@ -18,7 +18,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/school-management-api.git
+   git clone https://github.com/Advita9/school-management-api.git
    cd school-management-api
 2. Install dependencies:
    npm install
