@@ -58,10 +58,6 @@ app.get('/listSchools', (req, res) => {
 	});
 });
 
-app.get('/addSchool', (req, res) => {
-	res.send('This endpoint accepts POST requests to add a new school.');
-});
-
 app.post('/addSchool', (req, res) => {
 	const { name, address, latitude, longitude } = req.body;
 
