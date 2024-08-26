@@ -1,17 +1,28 @@
 
 const express = require("express");
 const mysql = require("mysql2");
+require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 3001;
 
+// app.set('view engine', 'ejs');
+
 app.use(express.json());
 
+// const connection = mysql.createConnection({
+//	host: process.env.DB_HOST,
+//	user: process.env.DB_USER,
+//	password: process.env.DB_PASSWORD,
+//	database: process.env.DB_NAME
+// });
+
+
 const connection = mysql.createConnection({
-	host: 'localhost',
-	user: 'root',
-	password: 'Bhagwad@2003',
-	database: 'school_management'
+	host: 'cig4l2op6r0fxymw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+	user: 'f8mhd8jgyzaejkpn',
+	password: 'rhig51i0f0rbbnbs',
+	database: 'b4diee6cqu8y4qct'
 });
 
 connection.connect((err) => {
