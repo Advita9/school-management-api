@@ -37,21 +37,20 @@ To run this project locally, follow these steps:
    DB_NAME=your_database_name
 5. Start the server:
    npm start
-```
-### Usage
+
+## Usage
 You can use tools like Postman to interact with the API.
 
-### Hosting
+## Hosting
 The API is hosted on Heroku. You can access it via the following URL:
-- [Heroku App](https://murmuring-brook-41824-6e97693292f5.herokuapp.com/)
 
-### Testing
+## Testing
 Use the provided Postman collection to test the API endpoints. Import the collection into Postman, and you can run predefined tests.
 
-### Contributing
+## Contributing
 Feel free to fork this project, open an issue, or submit a pull request.
 
-### License
+## License
 This project is licensed under the MIT License.
 
 
